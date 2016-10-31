@@ -11,6 +11,7 @@ class PostsController < ApplicationController
 
   def create
     @post = Post.new(params.require(:post).permit(:date, :rationale))
+    @post.user = current_user
 
     if @post.save
       redirect_to @post, notice: "Your post was created successfully!"
