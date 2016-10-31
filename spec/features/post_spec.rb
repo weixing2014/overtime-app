@@ -12,4 +12,24 @@ describe 'navigate' do
       expect(page).to have_css("h1", text: "Posts")
     end
   end
+
+  describe 'creation' do
+    before do
+      visit new_post_path
+    end
+
+    it 'has a form that can be reached' do
+      expect(page.status_code).to eq(200)
+      expect(page).to have_css("form")
+    end
+
+    it 'can create new post through the form' do
+      fill_in 'post[date]', with: Date.today
+      fill_in 'post[rationale]', with: "Some rationale"
+
+      click_on "Save"
+
+      expect(page).to have_content("Some rationale")
+    end
+  end
 end
