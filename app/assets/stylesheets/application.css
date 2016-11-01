@@ -16,3 +16,7 @@
  *= require bootstrap-material-design
  *= require ripples
  */
+
+body {
+  background-color: white !important;
+}
