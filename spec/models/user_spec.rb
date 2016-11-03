@@ -15,5 +15,9 @@ RSpec.describe User, type: :model do
       @user.last_name = nil
       expect(@user).to_not be_valid
     end
+
+    it "has a full name method that combines first and last names" do
+      expect(@user.name).to eql("Wei, Xing")
+    end
   end
 end

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e97ee350-55ef-4577-9c98-7f8ed2caa30b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Overtime.iml" afterPath="$PROJECT_DIR$/.idea/Overtime.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
     </list>
     <ignored path="Overtime.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,6 +32,7 @@
     <SUITE FILE_PATH="coverage/Overtime@navigate_index_can_be_reached_successfully__Overtime.coverage" NAME="navigate index can be reached successfully: Overtime Coverage Results" MODIFIED="1477874612187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
     <SUITE FILE_PATH="coverage/Overtime@navigate_index_has_a_list_of_posts__Overtime.coverage" NAME="navigate index has a list of posts: Overtime Coverage Results" MODIFIED="1478158133446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
     <SUITE FILE_PATH="coverage/Overtime@User_creation_can_be_created__Overtime.coverage" NAME="User creation can be created: Overtime Coverage Results" MODIFIED="1477639710633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
+    <SUITE FILE_PATH="coverage/Overtime@User_creation_has_a_full_name_method_that_combines_first_and_last_names__Overtime.coverage" NAME="User creation has a full name method that combines first and last names: Overtime Coverage Results" MODIFIED="1478160407632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
     <SUITE FILE_PATH="coverage/Overtime@application_controller.coverage" NAME="application_controller Coverage Results" MODIFIED="1477874566656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="Overtime" />
     <SUITE FILE_PATH="coverage/Overtime@User_creation_cannot_be_created_without_first_name__last_name__Overtime.coverage" NAME="User creation cannot be created without first_name, last_name: Overtime Coverage Results" MODIFIED="1477640172022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
     <SUITE FILE_PATH="coverage/Overtime@navigate_index_has_a_title_of_posts__Overtime.coverage" NAME="navigate index has a title of posts: Overtime Coverage Results" MODIFIED="1477875265550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Overtime" />
@@ -58,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3314917">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,11 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5026455">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -138,16 +149,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/post_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -174,13 +175,11 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/app/models/admin_user.rb" />
-        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/spec/models/post_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/new.html.erb" />
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/post.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/bootstrap_3.3.6.js" />
@@ -201,6 +200,8 @@
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
       </list>
     </option>
   </component>
@@ -688,7 +689,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="seeds&#9;FILE&#9;file:///Users/xingwei/Overtime/db/seeds.rb&#10;postcon&#9;FILE&#9;file:///Users/xingwei/Overtime/app/controllers/posts_controller.rb&#10;post.rb&#9;FILE&#9;file:///Users/xingwei/Overtime/app/models/post.rb&#10;application.js&#9;FILE&#9;file:///Users/xingwei/Overtime/app/assets/javascripts/application.js&#10;application.css&#9;FILE&#9;file:///Users/xingwei/Overtime/app/assets/stylesheets/application.css&#10;vendor/&#9;FILE&#9;file:///Users/xingwei/Overtime/vendor&#10;control&#9;FILE&#9;file:///Users/xingwei/Overtime/app/controllers/posts_controller.rb&#10;20161031064635_add_users_to_posts.rb&#9;FILE&#9;file:///Users/xingwei/Overtime/db/migrate/20161031064635_add_users_to_posts.rb&#10;migration/&#9;FILE&#9;file:///Users/xingwei/.rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/migration&#10;user&#9;FILE&#9;file:///Users/xingwei/Overtime/app/models/user.rb&#10;postscon&#9;FILE&#9;file:///Users/xingwei/Overtime/app/controllers/posts_controller.rb&#10;view/&#9;FILE&#9;file:///Users/xingwei/Overtime/app/views&#10;postscontro&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///Users/xingwei/Overtime/config/routes.rb&#10;20161028063107_devise_create_users.rb&#9;FILE&#9;file:///Users/xingwei/Overtime/db/migrate/20161028063107_devise_create_users.rb&#10;devise.rb&#9;FILE&#9;file:///Users/xingwei/Overtime/config/initializers/devise.rb&#10;environment/de&#9;FILE&#9;file:///Users/xingwei/Overtime/config/environments/development.rb&#10;routes.rb&#9;FILE&#9;file:///Users/xingwei/Overtime/config/routes.rb&#10;rails_hel&#9;FILE&#9;file:///Users/xingwei/Overtime/spec/rails_helper.rb" />
+    <property name="SearchEverywhereHistoryKey" value="user.rb&#9;FILE&#9;file:///Users/xingwei/Overtime/app/models/user.rb&#10;seeds&#9;FILE&#9;file:///Users/xingwei/Overtime/db/seeds.rb&#10;postcon&#9;FILE&#9;file:///Users/xingwei/Overtime/app/controllers/posts_controller.rb&#10;post.rb&#9;FILE&#9;file:///Users/xingwei/Overtime/app/models/post.rb&#10;application.js&#9;FILE&#9;file:///Users/xingwei/Overtime/app/assets/javascripts/application.js&#10;application.css&#9;FILE&#9;file:///Users/xingwei/Overtime/app/assets/stylesheets/application.css&#10;vendor/&#9;FILE&#9;file:///Users/xingwei/Overtime/vendor&#10;control&#9;FILE&#9;file:///Users/xingwei/Overtime/app/controllers/posts_controller.rb&#10;20161031064635_add_users_to_posts.rb&#9;FILE&#9;file:///Users/xingwei/Overtime/db/migrate/20161031064635_add_users_to_posts.rb&#10;migration/&#9;FILE&#9;file:///Users/xingwei/.rvm/gems/ruby-2.2.3/gems/activerecord-4.2.5.2/lib/active_record/migration&#10;user&#9;FILE&#9;file:///Users/xingwei/Overtime/app/models/user.rb&#10;postscon&#9;FILE&#9;file:///Users/xingwei/Overtime/app/controllers/posts_controller.rb&#10;view/&#9;FILE&#9;file:///Users/xingwei/Overtime/app/views&#10;postscontro&#9;null&#9;null&#10;routes&#9;FILE&#9;file:///Users/xingwei/Overtime/config/routes.rb&#10;20161028063107_devise_create_users.rb&#9;FILE&#9;file:///Users/xingwei/Overtime/db/migrate/20161028063107_devise_create_users.rb&#10;devise.rb&#9;FILE&#9;file:///Users/xingwei/Overtime/config/initializers/devise.rb&#10;environment/de&#9;FILE&#9;file:///Users/xingwei/Overtime/config/environments/development.rb&#10;routes.rb&#9;FILE&#9;file:///Users/xingwei/Overtime/config/routes.rb&#10;rails_hel&#9;FILE&#9;file:///Users/xingwei/Overtime/spec/rails_helper.rb" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -699,41 +700,7 @@
       <recent name="$PROJECT_DIR$/spec/features" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.navigate index has a list of posts: Overtime">
-    <configuration default="false" name="navigate index has a title of posts: Overtime" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="Overtime" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/post_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="navigate index has a title of posts" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="RSpec.User creation has a full name method that combines first and last names: Overtime">
     <configuration default="false" name="navigate creation has a form that can be reached: Overtime" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="Overtime" />
@@ -860,6 +827,40 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="navigate index has a list of posts" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="User creation has a full name method that combines first and last names: Overtime" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="Overtime" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/user_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="User creation has a full name method that combines first and last names" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -1051,19 +1052,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: Overtime" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: Overtime" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: Overtime" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.navigate index has a title of posts: Overtime" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.navigate creation has a form that can be reached: Overtime" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.navigate creation can create new post through the form: Overtime" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.navigate creation will have a user associated it: Overtime" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec.navigate index has a list of posts: Overtime" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.navigate creation has a form that can be reached: Overtime" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.navigate creation can create new post through the form: Overtime" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.navigate creation will have a user associated it: Overtime" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.navigate index has a list of posts: Overtime" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.User creation has a full name method that combines first and last names: Overtime" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.navigate index has a list of posts: Overtime" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.navigate creation will have a user associated it: Overtime" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.navigate creation can create new post through the form: Overtime" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.navigate creation has a form that can be reached: Overtime" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.navigate index has a title of posts: Overtime" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.User creation has a full name method that combines first and last names: Overtime" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.navigate index has a list of posts: Overtime" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.navigate creation will have a user associated it: Overtime" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.navigate creation can create new post through the form: Overtime" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.navigate creation has a form that can be reached: Overtime" />
       </list>
     </recent_temporary>
   </component>
@@ -1081,8 +1082,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="navigate_index_can_be_reached_successfully__Overtime - 2016.10.30 at 17h 42m 53s.xml">
-      <configuration name="navigate index can be reached successfully: Overtime" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="User_creation_has_a_full_name_method_that_combines_first_and_last_names__Overtime - 2016.11.03 at 01h 06m 49s.xml">
+      <configuration name="User creation has a full name method that combines first and last names: Overtime" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="navigate_index_can_be_reached_successfully__Overtime - 2016.10.30 at 17h 43m 34s.xml">
       <configuration name="navigate index can be reached successfully: Overtime" configurationId="RSpecRunConfigurationType" />
@@ -1277,6 +1278,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,13 +1329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1487,14 +1482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1529,8 +1516,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3314917">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5026455">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding />
         </state>
       </provider>
