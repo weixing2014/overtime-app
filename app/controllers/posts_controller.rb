@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_filter :find_post, only: [:show]
+  before_filter :find_post, only: [:show, :edit, :update]
 
   def index
     @posts = Post.all
@@ -21,6 +21,18 @@ class PostsController < ApplicationController
   end
 
   def show
+  end
+
+  def edit
+    render :edit
+  end
+
+  def update
+    if @post.update_attributes(params.require(:post).permit(:date, :rationale))
+      redirect_to @post, notice: "Your post was updated successfully!"
+    else
+      render :edit
+    end
   end
 
   private

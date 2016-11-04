@@ -1,10 +1,15 @@
 require 'rails_helper'
 
 describe 'navigate' do
+  before do
+    @user = FactoryGirl.create(:user)
+    @post_1 = FactoryGirl.create(:post, user: @user, rationale: 'post_1')
+    @post_2 = FactoryGirl.create(:post, user: @user, rationale: 'post_2')
+    login_as(@user, scope: :user)
+  end
+
   describe 'index' do
     before do
-      @user = User.create(email: "setup@test.com", password: "123456", password_confirmation: "123456")
-      login_as(@user, scope: :user)
       visit posts_path
     end
 
@@ -17,18 +22,14 @@ describe 'navigate' do
     end
 
     it 'has a list of posts' do
-      Post.create!(date: Date.today, rationale: "post_1", user: @user)
-      Post.create!(date: Date.today, rationale: "post_2", user: @user)
       visit posts_path
       expect(page).to have_content("post_1")
       expect(page).to have_content("post_2")
     end
   end
 
-  describe 'creation' do
+  describe 'create' do
     before do
-      user = User.create(email: "setup@test.com", password: "123456", password_confirmation: "123456")
-      login_as(user, scope: :user)
       visit new_post_path
     end
 
@@ -53,5 +54,9 @@ describe 'navigate' do
       click_on "Save"
       expect(User.last.posts.last.rationale).to eq("Some rationale")
     end
+  end
+
+  describe 'edit' do
+
   end
 end
