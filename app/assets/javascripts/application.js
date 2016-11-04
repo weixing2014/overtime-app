@@ -17,3 +17,4 @@
 //= require bootstrap
 //= require material
 //= require ripples
+//= require bootstrap-datepicker

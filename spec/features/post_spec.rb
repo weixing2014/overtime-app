@@ -26,6 +26,12 @@ describe 'navigate' do
       expect(page).to have_content("post_1")
       expect(page).to have_content("post_2")
     end
+
+    it 'has a link to the new page' do
+      visit posts_path
+      click_on "New"
+      expect(page.status_code).to eql(200)
+    end
   end
 
   describe 'create' do
@@ -57,6 +63,10 @@ describe 'navigate' do
   end
 
   describe 'edit' do
-
+    it 'can be reached by clicking edit on index page' do
+      visit posts_path
+      click_link 'Edit'
+      expect(page.status_code).to eq(200)
+    end
   end
 end

@@ -27,3 +27,4 @@ end
 
 gem 'mysql2'
 gem 'devise', '~> 4.2'
+gem 'simple_form'
