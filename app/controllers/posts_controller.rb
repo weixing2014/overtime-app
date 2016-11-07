@@ -29,7 +29,7 @@ class PostsController < ApplicationController
 
   def update
     if @post.update_attributes(post_params)
-      redirect_to @post, notice: "Your post was updated successfully!"
+      redirect_to @post, notice: "Your post has been updated successfully!"
     else
       render :edit
     end
@@ -37,7 +37,7 @@ class PostsController < ApplicationController
 
   def destroy
     if @post.delete
-      redirect_to posts_path, notice: "Your post was created successfully!"
+      redirect_to posts_path, notice: "Your post has been deleted successfully!"
     else
       redirect_to posts_path, notice: "Ooops, something is wrong :("
     end

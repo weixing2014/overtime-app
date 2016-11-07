@@ -28,3 +28,6 @@ end
 gem 'mysql2'
 gem 'devise', '~> 4.2'
 gem 'simple_form'
+gem "gritter", "1.2.0"
+gem "administrate", "~> 0.2.2"
+gem 'bourbon'
