@@ -10,7 +10,7 @@ class PostsController < ApplicationController
   end
 
   def create
-    @post = Post.new(params.require(:post).permit(:date, :rationale))
+    @post = Post.new(post_params)
     @post.user = current_user
 
     if @post.save
@@ -50,6 +50,6 @@ class PostsController < ApplicationController
   end
 
   def post_params
-    params.require(:post).permit(:"date(1i)", :"date(2i)", :"date(3i)", :rationale)
+    params.require(:post).permit(:"date(1i)", :"date(2i)", :"date(3i)", :rationale, :status)
   end
 end

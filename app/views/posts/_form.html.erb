@@ -1,3 +1,4 @@
 <%= f.input :date, as: :string, input_html: { data: { provide: 'datepicker' } } %>
 <%= f.input :rationale %>
+<%= f.input :status, include_blank: :false %>
 <%= f.button :submit, class: 'btn-primary btn-raised' %>
