@@ -1,4 +1,4 @@
 <%= f.input :date, as: :string, input_html: { data: { provide: 'datepicker' } } %>
 <%= f.input :rationale %>
-<%= f.input :status, include_blank: :false %>
+<%= render partial: 'status', locals: { f: f } if current_user.type.eql? 'AdminUser' %>
 <%= f.button :submit, class: 'btn-primary btn-raised' %>

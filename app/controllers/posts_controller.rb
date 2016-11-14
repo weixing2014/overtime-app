@@ -24,10 +24,12 @@ class PostsController < ApplicationController
   end
 
   def edit
+    authorize @post
     render :edit
   end
 
   def update
+    authorize @post
     if @post.update_attributes(post_params)
       redirect_to @post, notice: "Your post has been updated successfully!"
     else
@@ -50,6 +52,6 @@ class PostsController < ApplicationController
   end
 
   def post_params
-    params.require(:post).permit(:"date(1i)", :"date(2i)", :"date(3i)", :rationale, :status)
+    params.require(:post).permit(:date, :rationale, :status)
   end
 end

@@ -63,10 +63,13 @@ describe 'navigate' do
   end
 
   describe 'edit' do
-    it 'can be reached by clicking edit on index page' do
-      visit posts_path
-      click_link 'Edit'
-      expect(page.status_code).to eq(200)
+    it 'cannot be edited by a non-authorized user' do
+      logout(:user)
+      non_authorized_user = FactoryGirl.create(:non_authorized_user)
+      login_as(non_authorized_user, scope: :user)
+
+      visit edit_post_path(@post_1)
+      expect(current_path).to eq(root_path)
     end
   end
 end
